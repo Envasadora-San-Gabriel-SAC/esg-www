@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 
 
 /*
@@ -20,3 +21,12 @@ Route::get('/', function () {
 });
 
 Route::get('/term',[HomeController::class,'terminos_condiciones'])->name('terminos-condiciones');
+Route::get('/nosotros',[HomeController::class,'nosotros'])->name('nosotros');
+Route::get('/clientes',[HomeController::class,'clientes'])->name('clientes');
+
+Route::get('/contactanos',[HomeController::class,'contactanos'])->name('contactanos');
+Route::post('/contactanos',[HomeController::class,'contactanos_post'])->name('contactanos-post');
+
+// Productos
+Route::get('/productos',[ProductController::class,'index'])->name('productos');
+
