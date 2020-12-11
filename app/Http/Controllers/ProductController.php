@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\WhProduct;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller{
     public function index(){
-        return view('productos.indice');
+        $result = WhProduct::all();
+        return view('productos.indice',[
+            'products' => $result
+        ]);
     }
 }
