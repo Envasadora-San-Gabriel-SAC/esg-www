@@ -11,6 +11,7 @@
 @endsection
 
 @section('container')
+@include('layouts.sidebar')
 <!-- Page title-->
 <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25">
     <span class="bg-overlay bg-gradient" style="opacity: .8;"></span>

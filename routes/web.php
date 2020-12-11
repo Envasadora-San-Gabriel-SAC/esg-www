@@ -18,7 +18,7 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('inicio');
 
 Route::get('/term',[HomeController::class,'terminos_condiciones'])->name('terminos-condiciones');
 Route::get('/nosotros',[HomeController::class,'nosotros'])->name('nosotros');

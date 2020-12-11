@@ -1,6 +1,8 @@
 @extends('layouts.page')
 
 @section('container')
+@include('layouts.sidebar')
+
 <div style="padding-top:60px;">
     
 </div>

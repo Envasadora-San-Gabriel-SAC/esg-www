@@ -1,12 +1,8 @@
 @extends('layouts.page')
 
 @section('container')
-<section>
-     
+@include('layouts.sidebar')
 
-
-
-</section>
 <section class="container-fluid px-0 pb-5 pb-md-6">
     <div class="row no-gutters align-items-xl-center">
         <div class="col-lg-6 col-md-7 text-right order-md-2"><img class="d-inline-block" width="945" src="{{ asset('images/clientes/clientes-bg.jpg') }}" alt="Business people">

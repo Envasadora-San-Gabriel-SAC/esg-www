@@ -1,5 +1,7 @@
 @extends('layouts.page')
 @section('container')
+@include('layouts.sidebar')
+
 <section>
     <div class="album py-5 bg-light">
         <div class="container">
