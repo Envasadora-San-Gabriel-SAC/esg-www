@@ -19,9 +19,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home-contactenos') }}">Contactenos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                
             </ul>
             <ul class="navbar-nav mb-2 mb-md-0">
                 <li class="nav-item">

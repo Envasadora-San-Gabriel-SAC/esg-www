@@ -11,18 +11,61 @@
 @endsection
 
 @section('container')
-    <section class="container">
-        <div class="ro">
+   
+
+    <section class="container" style="margin-top:60px;">
+        <div class="row">
             <div class="col-md-8">
                 <form class="card-body needs-validation p-5" novalidate action="{{ route('contactanos-post') }}" method="POST">
                     <div class="form-group">
-                        <label class="form-label" for="cont-fn">Full name<sup class="text-danger ml-1">*</sup></label>
+                        <label class="form-label" for="cont-fn">Nombre Completo<sup class="text-danger ml-1">*</sup></label>
                         <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
                         <div class="invalid-feedback">Please enter your full name!</div>
                     </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cont-email">Email address<sup class="text-danger ml-1">*</sup></label>
+                        <input class="form-control" type="email" id="cont-email" placeholder="j.doe@example.com" required>
+                        <div class="invalid-feedback">Please enter a valid email address!</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cont-phone">Phone number</label>
+                        <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom" data-delimiter="-" data-blocks="2 4 2 2" placeholder="00-0000-00-00">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cont-company">Company</label>
+                        <input class="form-control bg-image-0" type="text" id="cont-company" placeholder="Your company">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cont-subject">Subject<sup class="text-danger ml-1">*</sup></label>
+                        <input class="form-control" type="text" id="cont-subject" placeholder="Title of your message" required>
+                        <div class="invalid-feedback">Please enter a subject!</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="cont-message">Message<sup class="text-danger ml-1">*</sup></label>
+                        <textarea class="form-control" id="cont-message" rows="5" placeholder="Write your message here" required></textarea>
+                        <div class="invalid-feedback">Please write a message!</div>
+                    </div>
+                    <div class="text-right pt-2">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
                 </form>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4 p-5" style="background-color: #dcdcdc;">
+                <b>Servicio al Cliente</b> <br />
+                Central: (+51) 1 713 1630<br />
+                <a href="mailto:ganasco@esg.com.pe">ganasco@esg.com.pe</a><br />
+                <a href="mailto:soporte@esg.com.pe">soporte@esg.com.pe</a><br />
+                <br /><br />
+                <b>Oficina Administrativa:</b><br />
+                Av Jose Pardo 602 Of 404<br />
+                Miraflores - Lima<br />
+
+                <br /><br />
+                <b>Planta Produccion</b><br />
+                Calle La Pampilla 121 <br />
+                Ventanilla - Callao<br />
+
+            </div>
         </div>
     </section>
 @endsection
@@ -42,8 +85,8 @@
     <div class="container bg-overlay-content pt-3 pb-7 pt-md-0">
         <div class="row justify-content-center pb-7">
             <div class="col-lg-10">
-            <h1 class="text-light">Contactanos</h1>
-            <p class="text-light">Ponte en contacto con nosotros completando el siguiente formulario o llámanos ahora</p>
+                <h1 class="text-light">Contactanos</h1>
+                <p class="text-light">Ponte en contacto con nosotros completando el siguiente formulario o llámanos ahora</p>
             </div>
         </div>
     </div>
@@ -55,9 +98,9 @@
             <div class="card border-0 box-shadow-lg">
             <form class="card-body needs-validation p-5" novalidate action="{{ route('contactanos-post') }}" method="POST">
                 <div class="form-group">
-                <label class="form-label" for="cont-fn">Full name<sup class="text-danger ml-1">*</sup></label>
-                <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
-                <div class="invalid-feedback">Please enter your full name!</div>
+                    <label class="form-label" for="cont-fn">Full name<sup class="text-danger ml-1">*</sup></label>
+                    <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
+                    <div class="invalid-feedback">Please enter your full name!</div>
                 </div>
                 <div class="form-group">
                 <label class="form-label" for="cont-email">Email address<sup class="text-danger ml-1">*</sup></label>

@@ -42,8 +42,26 @@
         <main>
             @yield('container')
        
+            
+        </main>
+        <main class="py-5" style="border-top:1px solid #e1e1e1;">
             @include('layouts.footer')
         </main>
+
+        <footer class="text-muted ">
+            <div class="container">
+                <div class="row" style="font-size:1.4em;">
+                    <div class="col-7">
+                        &copy; {{ date("Y") }} - 
+                        <img src="http://web.localhost/images/logo_esg_small2.png" width="30" height="30" alt="">
+                        Envasadora San Gabriel SRL
+                    </div>
+                    <div class="col-5">
+                        <p class="text-right float-end">Central Telefonica: <strong style="font-weight:700">(+51) 1 713 1630</strong></p>
+                    </div>
+                </div>
+            </div>
+          </footer>
         <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>      
     </body>
 </html>

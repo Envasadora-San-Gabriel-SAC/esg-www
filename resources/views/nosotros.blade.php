@@ -2,7 +2,7 @@
 
 @section('container')
 
-@include('layouts.sidebar')
+ 
 
 <!-- Intro-->
 <section class="container my-lg-2 pt-5 pb-lg-7" style="margin-top:20px;">
