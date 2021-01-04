@@ -1,4 +1,5 @@
- 
+
+
 
 
    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
@@ -38,6 +39,9 @@
             <!-- Menu-->
             <ul class="navbar-nav">
                
+                <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{ route('inicio') }}">Inicio</a>
+                </li>
                 <li class="nav-item {{ request()->is('nosotros*') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('nosotros') }}">Nosotros</a>
                 </li>
