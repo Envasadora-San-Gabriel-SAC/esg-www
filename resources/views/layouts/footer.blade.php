@@ -1,5 +1,8 @@
 <!-- FOOTER -->
 <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+    <p>&copy; {{ date("Y") }} Envasadora San Gabriel SRL &middot; 
+        <a href="{{ route('home-nosotros') }}">Nosotros</a>&nbsp;|&nbsp;
+        <a href="{{ route('home-disclaimer') }}">Terminos y Condiciones</a>
+    </p>
+</footer>

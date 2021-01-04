@@ -1,10 +1,6 @@
-@extends('layouts.page')
+@extends('layouts.home')
 
 @section('container')
-
-
-
-
 
 
 
@@ -57,48 +53,6 @@
 </section>
 
 
-<section class="container py-5 my-4 my-sm-0 py-sm-6 py-md-7">
-    <div class="row pb-2">
-        <div class="col-lg-6">
-            <div class="accordion accordion-alt" id="faq-accordion">
-            <div class="card border-0 box-shadow">
-                <div class="card-header">
-                <h3 class="accordion-heading"><a class="collapsed" href="#questionOne" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="questionOne">Distribucion y Comercializacion<span class="accordion-indicator"></span></a></h3>
-                </div>
-                <div class="collapse" id="questionOne" data-parent="#faq-accordion" style="">
-                <div class="card-body font-size-md">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                </div>
-            </div>
-            <div class="card border-0 box-shadow">
-                <div class="card-header">
-                <h3 class="accordion-heading"><a href="#questionTwo" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="questionTwo" class="collapsed">Fabricación de pinturas en general y servicio de pintado.<span class="accordion-indicator"></span></a></h3>
-                </div>
-                <div class="collapse" id="questionTwo" data-parent="#faq-accordion" style="">
-                <div class="card-body font-size-md">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                </div>
-            </div>
-            <div class="card border-0 box-shadow">
-                <div class="card-header">
-                <h3 class="accordion-heading"><a class="collapsed" href="#questionThree" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="questionThree">Fabricación de resinas, piezas de fibra de vidrio y revestimiento de tanques.<span class="accordion-indicator"></span></a></h3>
-                </div>
-                <div class="collapse" id="questionThree" data-parent="#faq-accordion" style="">
-                <div class="card-body font-size-md">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                </div>
-            </div>
-            <div class="card border-0 box-shadow card-active">
-                <div class="card-header">
-                <h3 class="accordion-heading"><a class="" href="#questionFour" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="questionFour">Comercialización de solventes y productos químicos.<span class="accordion-indicator"></span></a></h3>
-                </div>
-                <div class="collapse show" id="questionFour" data-parent="#faq-accordion" style="">
-                <div class="card-body font-size-md">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="d-none d-lg-block col-lg-5 offset-lg-1"><img src="{{ asset('images/nosotros-illustration.svg') }}" alt="Illustration">
-        </div>
-    </div>
-  </section>
 
 <!-- Statistics-->
 <!--

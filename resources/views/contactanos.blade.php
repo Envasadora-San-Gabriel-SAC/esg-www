@@ -1,4 +1,4 @@
-@extends('layouts.page')
+@extends('layouts.home')
 
 
 @section('style')
@@ -11,6 +11,24 @@
 @endsection
 
 @section('container')
+    <section class="container">
+        <div class="ro">
+            <div class="col-md-8">
+                <form class="card-body needs-validation p-5" novalidate action="{{ route('contactanos-post') }}" method="POST">
+                    <div class="form-group">
+                        <label class="form-label" for="cont-fn">Full name<sup class="text-danger ml-1">*</sup></label>
+                        <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
+                        <div class="invalid-feedback">Please enter your full name!</div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </section>
+@endsection
+
+
+@section('container2')
 <!-- Page title-->
 <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25">
     <span class="bg-overlay bg-gradient" style="opacity: .8;"></span>

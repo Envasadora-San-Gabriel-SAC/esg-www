@@ -20,11 +20,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/term',[HomeController::class,'terminos_condiciones'])->name('terminos-condiciones');
-Route::get('/nosotros',[HomeController::class,'nosotros'])->name('nosotros');
+Route::get('/disclaimer',[HomeController::class,'terminos_condiciones'])->name('home-disclaimer');
+Route::get('/nosotros',[HomeController::class,'nosotros'])->name('home-nosotros');
 Route::get('/clientes',[HomeController::class,'clientes'])->name('clientes');
 
-Route::get('/contactanos',[HomeController::class,'contactanos'])->name('contactanos');
+Route::get('/contactanos',[HomeController::class,'contactanos'])->name('home-contactenos');
 Route::post('/contactanos',[HomeController::class,'contactanos_post'])->name('contactanos-post');
 
 // Productos
