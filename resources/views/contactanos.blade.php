@@ -20,30 +20,30 @@
                     <div class="form-group">
                         <label class="form-label" for="cont-fn">Nombre Completo<sup class="text-danger ml-1">*</sup></label>
                         <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
-                        <div class="invalid-feedback">Please enter your full name!</div>
+                        <div class="invalid-feedback">Ingresa tu nombres completo!</div>
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="cont-email">Email address<sup class="text-danger ml-1">*</sup></label>
+                        <label class="form-label" for="cont-email">Correo Electronico<sup class="text-danger ml-1">*</sup></label>
                         <input class="form-control" type="email" id="cont-email" placeholder="j.doe@example.com" required>
-                        <div class="invalid-feedback">Please enter a valid email address!</div>
+                        <div class="invalid-feedback">Ingresa un email valido!</div>
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="cont-phone">Phone number</label>
-                        <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom" data-delimiter="-" data-blocks="2 4 2 2" placeholder="00-0000-00-00">
+                        <label class="form-label" for="cont-phone">Telefono / Movil</label>
+                        <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom" data-delimiter="-" data-blocks="3 3 3" placeholder="000-000-000">
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="cont-company">Company</label>
-                        <input class="form-control bg-image-0" type="text" id="cont-company" placeholder="Your company">
+                        <label class="form-label" for="cont-company">Empresa</label>
+                        <input class="form-control bg-image-0" type="text" id="cont-company" placeholder="Razon Social">
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="cont-subject">Subject<sup class="text-danger ml-1">*</sup></label>
-                        <input class="form-control" type="text" id="cont-subject" placeholder="Title of your message" required>
-                        <div class="invalid-feedback">Please enter a subject!</div>
+                        <label class="form-label" for="cont-subject">Asunto<sup class="text-danger ml-1">*</sup></label>
+                        <input class="form-control" type="text" id="cont-subject" placeholder="Ingrese un titulo" required>
+                        <div class="invalid-feedback">Por favor ingresar un asunto!</div>
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="cont-message">Message<sup class="text-danger ml-1">*</sup></label>
-                        <textarea class="form-control" id="cont-message" rows="5" placeholder="Write your message here" required></textarea>
-                        <div class="invalid-feedback">Please write a message!</div>
+                        <label class="form-label" for="cont-message">Mensaje<sup class="text-danger ml-1">*</sup></label>
+                        <textarea class="form-control" id="cont-message" rows="5" placeholder="Escribe aqui tu mensaje" required></textarea>
+                        <div class="invalid-feedback">Por favor detalla tu mensaje!</div>
                     </div>
                     <div class="text-right pt-2">
                         <button class="btn btn-primary" type="submit">Enviar</button>
