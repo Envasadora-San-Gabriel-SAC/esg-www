@@ -1,23 +1,60 @@
-<!-- FOOTER -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
 
-<footer class="container " style="padding-top:15px;">
-    <div class="row">
-
-        <div class="col-md-6">
-            Envasadora San Gabriel SRL
-            <br>RUC 20292391189
-            <br>&copy; {{ date("Y") }} - Derechos Reservados
-        </div>
-        <div class="col-md-3">
-            Centra Telefonica
-            <br>(+51) 1 713 1630
-            <br>soporte@esg.com.pe
-        </div>
-        <div class="col-md-3">
-            <a href="{{ route('home-nosotros') }}">Nosotros</a>
-            <br><a href="{{ route('home-disclaimer') }}">Terminos y Condiciones</a>
+                <div class="col-lg-3 col-md-6 footer-info" >
+                    <p style="font-size:1.4em;">
+                        CENTRAL TELEFONICA
+                        <br>(+51) <strong>713 1630</strong>
+                    </p>
+                    <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+         
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 ">
+                    <div class="row">
+                        <div class="col-6">
+                            OFICINA
+                            <br>Av Jose Pardo 601 - Of 401
+                            <br>Miraflores - Lima
+                        </div>
+                        <div class="col-6">
+                            PLANTA
+                            <br>Calle La Pampilla 121
+                            <br>Ventanilla - Callao
+                        </div>
+                    </div>
+                    <p style="font-size:1em;">
+                        
+                        
+                    </p>
+                </div>
+                <div class="col-lg-4 footer-links">
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Productos</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Politicas de Privacidad</a></li>
+                    </ul>
+                     
+                </div>
+            </div>
         </div>
     </div>
-    <p class="float-end"><a href="#">Back to top</a></p>
-    
+ 
+
+   
+    <div class="container">
+        <div class="copyright">
+        </div>
+        <div class="credits">
+            &copy;  DERECHOS RESERVADOS {{ date("Y") }}&nbsp;&nbsp;&nbsp;<img src="{{ asset('images/logo/logo-brand-dark.png') }}" alt="" width="40">&nbsp;&nbsp;&nbsp;ENVASADORA SAN GABRIEL SRL  
+        </div>
+    </div>
 </footer>
+<!-- End Footer -->

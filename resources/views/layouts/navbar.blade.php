@@ -1,36 +1,44 @@
-<header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="{{ url('') }}">
-            <img src="{{ asset('images/logo_esg_small2.png') }}" width="30" height="30" alt="">
-            ESG
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home-nosotros') }}">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home-contactenos') }}">Contactenos</a>
-                </li>
-                
-            </ul>
-            <ul class="navbar-nav mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-sign-in-alt"></i>
-                        Intrantet
-                    </a>
-                </li>
-            </ul>
-             
+    <!-- ======= Header ======= -->
+<style>    
+    .boton a{
+        border:1px solid rgba(0, 0, 255, 0.385);
+        border-radius: 5px;
+        margin-left:10px;
+        padding:5px; 
+        background-color: rgb(57, 136, 255);
+        color:#fff;
+    }
+    .boton a:hover{
+        border:1px solid rgba(0, 132, 255, 0.57);
+        border-radius: 5px;
+        margin-left:10px;
+        padding:5px; 
+        background-color: #fff;
+    }
+   
+</style>    
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+
+        <div class="logo">
+            <h1><a href="{{ route('home') }}"><img src="{{ asset('images/logo/logo-brand.png') }}" alt=""> Envasadora San Gabriel SRL</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="{{ route('home') }}" class="{{ (request()->is('/')) ? 'active' : '' }}">HOME</a></li>
+                <li><a href="{{ route('nosotros') }}" class="{{ (request()->is('nosotros')) ? 'active' : '' }}">NOSOTROS</a></li>
+                <li><a href="{{ route('servicios') }}" class="{{ (request()->is('servicios')) ? 'active' : '' }}">SERVICIOS</a></li>
+                <li><a href="portfolio.html">PRODUCTOS</a></li>
+                <li><a href="{{ route('clientes') }}" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
+                <li><a href="{{ route('contacto') }}" class="{{ (request()->is('contacto')) ? 'active' : '' }}">CONTACTO</a></li>
+                <li class="boton"><a href="{{ route('clientes') }}" class=" {{ (request()->is('cotizar')) ? 'active' : '' }}"><strong>&nbsp;COTIZAR&nbsp;</strong></a></li>
+            
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
         </div>
-    </nav>
-</header>
+    </header><!-- End Header -->

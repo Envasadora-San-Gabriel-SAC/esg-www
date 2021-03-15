@@ -17,9 +17,27 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-})->name('inicio');
+    return view('home');
+})->name('home');
 
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
+})->name('nosotros');
+
+Route::get('/servicios', function () {
+    return view('servicios');
+})->name('servicios');
+
+Route::get('/clientes', function () {
+    return view('clientes');
+})->name('clientes');
+
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
+
+/*
 Route::get('/disclaimer',[HomeController::class,'terminos_condiciones'])->name('home-disclaimer');
 Route::get('/nosotros',[HomeController::class,'nosotros'])->name('home-nosotros');
 Route::get('/clientes',[HomeController::class,'clientes'])->name('clientes');
@@ -30,3 +48,4 @@ Route::post('/contactanos',[HomeController::class,'contactanos_post'])->name('co
 // Productos
 Route::get('/productos',[ProductController::class,'index'])->name('productos');
 
+*/

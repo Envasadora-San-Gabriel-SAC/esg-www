@@ -1,82 +1,119 @@
-@extends('layouts.home')
+@extends('layouts.page')
 
 @section('container')
 
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+
+            <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Nosotros</li>
+            </ol>
+            <h2>Nosotros</h2>
+
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+        
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{{ asset('images/about-mesa-directorio.jpg') }}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3 style="font-size: 2.4em;">Quienes somos</h3>
+                    <p class="font-italic" style="font-size: 1.3em;">
+                        ESG - Envasadora San Gabriel, es una empresa con negocios diversificados y clasificada entre las empresas top 
+                        en la cámara de comercio de Lima. Iniciamos nuestras operaciones en el año 1996. Durante este tiempo nos 
+                        hemos expandido abarcando negocios como:
+                    </p>
+                    <ul  style="font-size: 1.1em;">
+                        <li><i class="bi bi-check-circle"></i> Distribución y comercialización de hidrocarburos.</li>
+                        <li><i class="bi bi-check-circle"></i> Fabricación de pinturas en general y servicio de pintado.</li>
+                        <li><i class="bi bi-check-circle"></i> Fabricación de resinas, piezas de fibra de vidrio y revestimiento de tanques.</li>
+                        <li><i class="bi bi-check-circle"></i> Comercialización de solventes y productos químicos.</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+    
+    <!-- ======= About NUESTRA VISION ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3 style="font-size: 2.4em;">Nuestra Visión</h3>
+                    <p class="font-italic" style="font-size: 1.3em;">
+                        Ser líderes en el mercado nacional brindando productos y servicios de gran calidad, respaldados en la 
+                        continua innovación tecnológica, satisfaciendo las necesidades de nuestros clientes por encima de sus expectativas.
+                    </p>
+                    
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="{{ asset('images/about-vision.png') }}" class="img-fluid" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= About NUESTRA MISION ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{{ asset('images/about-mision.png') }}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3 style="font-size: 2.4em;">Nuestra Misión</h3>
+                    <p class="font-italic" style="font-size: 1.3em;">
+                        Construir una relación duradera con nuestros clientes, satisfaciendo sus necesidades con productos y servicios de 
+                        alta calidad, utilizando materia prima selecta, tecnología avanzada, colaboradores motivados y de alto desempeño. 
+                    </p>
+                    <p class="font-italic" style="font-size: 1.3em;">                        
+                        Estamos comprometidos con el mejoramiento continuo de los procesos, el cuidado y protección del medio ambiente, 
+                        con el fin de lograr la diferenciación y el desarrollo socioeconómico sostenible de nuestra organización. 
+                    </p>
+                     
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+
  
 
-<!-- Intro-->
-<section class="container my-lg-2 pt-5 pb-lg-7" style="margin-top:20px;">
-    <div class="row align-items-center">
-        <div class="col-lg-5 py-3 py-lg-0">
-            <h1>Quienes Somos</h1>
-            <h2 class="h3" style="font-weight: lighter;">Cómo ayudamos a otras empresas a crecer..</h2>
-            <div class="py-4">
-            <p class="cs-callout" style="font-size:1.3em;font-weight: lighter;">ESG - Envasadora San Gabriel, es una empresa con negocios diversificados y clasificada entre las empresas top en la cámara de comercio de Lima. 
-                Iniciamos nuestras operaciones en el año 1996. Durante este tiempo nos hemos expandido abarcando negocios como:</p>
-            </div>
-            <!-- <a class="cs-video-btn cs-video-btn-primary cs-video-btn-sm mr-3" href="https://www.youtube.com/watch?v=hTu0a4o97dU"></a><span class="font-size-sm text-muted">Get to know us better</span> -->
-        </div>
-        <div class="col-xl-6 col-lg-7 offset-xl-1">
-            <div class="py-5" style="min-height: 543px;">
-            <div class="d-none d-lg-block position-absolute bg-no-repeat bg-position-center h-100" style="top: 0; left: -45px; width: 646px; background-image: url(images/bg-shape.svg);"></div>
-            <div class="row no-gutters mx-n2 pt-lg-4">
-                <div class="col-sm-4 px-2 mb-3">
-                    <a class="card h-100 card-body py-5 justify-content-center border-0 box-shadow-lg text-center" href="#">
-                        <i class="fas fa-truck-moving text-primary h1 mb-3"></i>
-                        <h3 class="h5 mb-0" style="font-weight: 400;">Distribución y Ventas</h3>
-                    </a>
-                </div>
-                <div class="col-sm-4 px-2 mb-3">
-                    <a class="card card-body py-5 border-0 box-shadow-lg text-center mb-3" href="#">
-                        <i class="fas fa-palette text-danger h1 mb-3"></i>
-                        <h3 class="h5 mb-0">Pinturas</h3>
-                    </a>
-                    <a class="card card-body py-5 border-0 box-shadow-lg text-center" href="#">
-                        <i class="fab fa-creative-commons-remix text-info h1 mb-3"></i>
-                        <h3 class="h5 mb-0">Resinas</h3>
-                    </a>
-                </div>
-                <div class="col-sm-4 px-2 mb-3">
-                    <a class="card card-body py-5 border-0 box-shadow-lg text-center mb-3" href="#">
-                        <i class="fas fa-cubes text-success h1 mb-3"></i>
-                        <h3 class="h5 mb-0">Solventes.</h3>
-                    </a>
-                    <a class="card card-body py-5 border-0 box-shadow-lg text-center" href="#">
-                        <i class="fas fa-vial text-warning h1 mb-3"></i>
-                        <h3 class="h5 mb-0">Quimicos</h3>
-                    </a>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-</section>
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
 
+            <div class="section-title">
+            <h3  style="font-size: 2.4em;">Nuestro Compromiso</h3>
+            <p style="font-size: 1.3em;">
+                Somos una empresa comprometida con el cuidado del medio ambiente que integra en sus procesos de 
+                producción, distribución y comercialización altos estándares de calidad.
+            </p>
+            </div>
 
+           
 
-<!-- Statistics-->
-<!--
-<section class="bg-secondary py-5 mt-n4 mb-6 mt-lg-0 mb-lg-7" style="padding:0px;">
-    <div class="container py-3">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 text-center py-3">
-            <h3 class="display-4">{{ date("Y")-1996 }}</h3>
-            <p class="text-muted mb-0">Años de experiencia</p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center py-3">
-            <h3 class="display-4">50+</h3>
-            <p class="text-muted mb-0">Empleados</p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center py-3">
-            <h3 class="display-4">90%</h3>
-            <p class="text-muted mb-0">Feedback Positivos</p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center py-3">
-            <h3 class="display-4">100</h3>
-            <p class="text-muted mb-0">Proyectos completados con éxito</p>
-            </div>
         </div>
-    </div>
-</section>  
--->  
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
 @endsection
