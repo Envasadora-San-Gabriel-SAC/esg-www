@@ -35,20 +35,28 @@ class CreateWhProductsTable extends Migration
 
         // DUPLICADOS
         DB::table('wh_products')->insert([
-            'productname' => 'SATINADO',
-            'filename' => 'images/product/balde.png',
+            'productname' => 'DIESEL B5S50',
+            'filename' => 'images/product/db5s50.png',
         ]);
         DB::table('wh_products')->insert([
-            'productname' => 'SATINADO',
-            'filename' => 'images/product/balde.png',
+            'productname' => 'GASOHOL 90',
+            'filename' => 'images/product/gh90.png',
         ]);
         DB::table('wh_products')->insert([
-            'productname' => 'SATINADO',
-            'filename' => 'images/product/balde.png',
+            'productname' => 'GASOHOL 95',
+            'filename' => 'images/product/gh95.png',
         ]);
         DB::table('wh_products')->insert([
-            'productname' => 'SATINADO',
-            'filename' => 'images/product/balde.png',
+            'productname' => 'SOLVENTE 1 PETRO',
+            'filename' => 'images/product/cil55.png',
+        ]);
+        DB::table('wh_products')->insert([
+            'productname' => 'SOLVENTE 3 PETRO',
+            'filename' => 'images/product/cil55.png',
+        ]);
+        DB::table('wh_products')->insert([
+            'productname' => 'HAS',
+            'filename' => 'images/product/cil55.png',
         ]);
     }
 

@@ -86,7 +86,7 @@
             <div class="icon-box">
               <i class="bi bi-diagram-3"></i>
             <h3><a href="">Tecnologia en ERP</a></h3>
-            <p>Nuestras operaciones se gestionar con un ERP a nuestra medida para cumplir con nuestros clientes</p>
+            <p>Nuestras operaciones se gestiona con un ERP a nuestra medida para cumplir con nuestros clientes</p>
             </div>
         </div>
         </div>

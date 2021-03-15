@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class ProductController extends Controller{
     public function index(){
         $result = WhProduct::all();
-        return view('productos.indice',[
+        return view('product.indice',[
             'products' => $result
         ]);
     }

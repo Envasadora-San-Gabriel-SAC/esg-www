@@ -41,7 +41,14 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Productos</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Politicas de Privacidad</a></li>
                     </ul>
-                     
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7&appId=1790353514532599";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
                 </div>
             </div>
         </div>

@@ -37,6 +37,8 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+Route::resource('productos',ProductController::class);
+
 /*
 Route::get('/disclaimer',[HomeController::class,'terminos_condiciones'])->name('home-disclaimer');
 Route::get('/nosotros',[HomeController::class,'nosotros'])->name('home-nosotros');
