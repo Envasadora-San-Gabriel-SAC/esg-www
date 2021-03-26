@@ -33,6 +33,7 @@
                 abastecimiento de manera personalizada, acorde a las necesidades o exigencias de la operación de 
                 cada cliente. Nuestro servicio tiene alcance a nivel nacional.
             </p>
+            <!--
             <ul>
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -43,6 +44,7 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum
             </p>
+          -->
           </div>
         </div>
 
@@ -50,6 +52,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
+    <!--
     <section id="counts" class="counts">
       <div class="container">
 
@@ -94,9 +97,12 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section>
+  -->
+    <!-- End Counts Section -->
 
     <!-- ======= Clients Section ======= -->
+    <!--
     <section id="clients" class="clients">
       <div class="container">
 
@@ -120,9 +126,12 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>
+  -->
+  <!-- End Clients Section -->
 
     <!-- ======= Testimonials Section ======= -->
+    <!--
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -214,7 +223,9 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+  -->
+    <!-- End Testimonials Section -->
 
   </main><!-- End #main -->    
 @endsection

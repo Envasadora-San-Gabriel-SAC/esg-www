@@ -16,7 +16,7 @@
 @section('container')
 
 <!-- ======= Breadcrumbs ======= -->
-<section id="breadcrumbs" class="breadcrumbs" style="margin-bottom: 0px;">
+<section id="breadcrumbs" class="breadcrumbs" style="margin-bottom: 0px;border-bottom:1px solid #dcdcdc;">
     <div class="container">
 
         <ol>
@@ -36,7 +36,7 @@
                     <div class="producto" style="">
                         <table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
                             <tr>
-                                <td class="text-center">
+                                <td class="text-center" style="padding:10px;">
                                     <img src="{{ $item->filename }}" alt="" width="230" height="230">
                                 </td>
                             </tr>
