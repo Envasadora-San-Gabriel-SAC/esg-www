@@ -4,7 +4,7 @@
 <style>
     .producto{
         border:1px solid #dcdcdc;
-        border-radius: 5px;
+        border-radius: 2px;
         margin:5px;
         padding:5px;
         background-color: #fff;
