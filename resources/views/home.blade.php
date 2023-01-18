@@ -20,33 +20,39 @@
                 <h2 class="animate__animated animate__fadeInDown">Abastecimiento de <span>combustibles</span></h2>
                 <p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles. 
                     Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
+					<!--
                 <a href="{{ route('servicios') }}" class="btn-get-started animate__animated animate__fadeInUp">Más información</a>
+					-->
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url({{ asset('images/carousel/slide-2.jpg') }})">
+		 
+          <div class="carousel-item" style="background: url({{ asset('images/carousel/foto_01.JPG') }})">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown">Lorem <span>Ipsum Dolor</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">Abastecimiento de <span>combustibles</span></h2>
+                <p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles. 
+                    Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
+					<!--
+                <a href="{{ route('servicios') }}" class="btn-get-started animate__animated animate__fadeInUp">Más información</a>
+					-->
               </div>
             </div>
           </div>
-
+	 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url({{ asset('images/carousel/slide-4.jpg') }})">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea <span>Dime Lara</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
-              </div>
-            </div>
-          </div>
-
+		  <!--
+			<div class="carousel-item" style="background: url({{ asset('images/carousel/foto_07.JPG') }})">
+				<div class="carousel-container">
+					<div class="carousel-content">
+						<p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles. 
+							Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
+					</div>
+				</div>
+			</div>
+			-->
         </div>
 
         <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -64,6 +70,11 @@
  
 <main id="main">
     <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+		<div class="container">
+		</div>
+	</section>
+	<!--
     <section id="featured" class="featured">
     <div class="container">
 
@@ -92,7 +103,9 @@
         </div>
 
     </div>
-    </section><!-- End Featured Section -->
+    </section>
+  -->
+    <!-- End Featured Section -->
 
     <!-- ======= About Section ======= -->
     <!--

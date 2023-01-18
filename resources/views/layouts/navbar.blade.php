@@ -21,7 +21,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
         <div class="logo">
-            <h1><a href="{{ route('home') }}"><img src="{{ asset('images/logo/logo-brand.png') }}" alt=""> Envasadora San Gabriel SRL</a></h1>
+            <h1><a href="{{ route('home') }}"><img src="{{ asset('images/logo/logo-brand.png') }}" alt=""> Envasadora San Gabriel SAC</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -31,8 +31,10 @@
                 <li><a href="{{ route('home') }}" class="{{ (request()->is('/')) ? 'active' : '' }}">HOME</a></li>
                 <li><a href="{{ route('nosotros') }}" class="{{ (request()->is('nosotros')) ? 'active' : '' }}">NOSOTROS</a></li>
                 <li><a href="{{ route('servicios') }}" class="{{ (request()->is('servicios')) ? 'active' : '' }}">SERVICIOS</a></li>
+                <!--
                 <li><a href="{{ route('productos.index') }}">PRODUCTOS</a></li>
                 <li><a href="{{ route('clientes') }}" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
+                -->
                 <li><a href="{{ route('contacto') }}" class="{{ (request()->is('contacto')) ? 'active' : '' }}">CONTACTO</a></li>
                 <li class="boton"><a href="{{ route('clientes') }}" class=" {{ (request()->is('cotizar')) ? 'active' : '' }}"><strong>&nbsp;COTIZAR&nbsp;</strong></a></li>
             

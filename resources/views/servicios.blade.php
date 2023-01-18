@@ -18,37 +18,37 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+		<div class="container">
 
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>Abastecimiento de diesel</h3>
-            <p class="font-italic">
-                Solucionamos el problema del abastecimiento de combustibles para las maquinarias, equipos y unidades 
-                de todos nuestros clientes, surtiéndolos directamente en la obra, en el mismo punto de ejecución de 
-                la misma; al igual que en sus locales, puntos de acopio o sedes. Diseñamos y adaptamos cada 
-                abastecimiento de manera personalizada, acorde a las necesidades o exigencias de la operación de 
-                cada cliente. Nuestro servicio tiene alcance a nivel nacional.
-            </p>
-            <!--
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          -->
-          </div>
-        </div>
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="{{ asset('/images/foto_07.jpg') }}" class="img-fluid" alt="" style="width:50%;">
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 content">
+					<h3>Abastecimiento de Diesel</h3>
+					<p class="font-italic">
+						Solucionamos el problema del abastecimiento de combustibles para las maquinarias, equipos y unidades 
+						de todos nuestros clientes, surtiéndolos directamente en la obra, en el mismo punto de ejecución de 
+						la misma; al igual que en sus locales, puntos de acopio o sedes. Diseñamos y adaptamos cada 
+						abastecimiento de manera personalizada, acorde a las necesidades o exigencias de la operación de 
+						cada cliente. Nuestro servicio tiene alcance a nivel nacional.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6"></div>
+				<div class="col-lg-6 pt-4 pt-lg-0 content">
+					<h3><br>Distribucion de Solventes de Petroperu</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6"></div>
+				<div class="col-lg-6 pt-4 pt-lg-0 content">
+					<h3><br>Produccion y Distribución de Resinas</h3>
+				</div>
+			</div>
 
-      </div>
+		</div>
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
