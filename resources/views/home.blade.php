@@ -32,12 +32,7 @@
           <div class="carousel-item" style="background: url({{ asset('images/carousel/foto_01.JPG') }})">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Abastecimiento de <span>combustibles</span></h2>
-                <p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles. 
-                    Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
-					<!--
-                <a href="{{ route('servicios') }}" class="btn-get-started animate__animated animate__fadeInUp">Más información</a>
-					-->
+               
               </div>
             </div>
           </div>
