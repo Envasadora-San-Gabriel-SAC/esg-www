@@ -39,12 +39,24 @@
 				<div class="col-lg-6"></div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><br>Distribucion de Solventes de Petroperu</h3>
+          <p class="font-italic">
+            Resina de uso General formulada para ser aplicada como refuerzo entre las sucesivas capas de fibra de vidrio (PRFV). 
+            Se usa en la fabricación de acabados sanitarios tipo mármol como refuerzo en la capa posterior, también en la parte 
+			posterior como refuerzo en sanitarios de colores completos como lavatorios, pisos para duchas, tinas, jacuzis y en 
+			tableros para cocina.  Además, en acabados automotrices, maniquíes, cortavientos vehiculares, piezas en general, etc.
+          </p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6"></div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><br>Produccion y Distribución de Resinas</h3>
+          			<p class="font-italic">
+						Se obtiene por un proceso químico denominado extracción cáustica de los destilados de petróleo, 
+						principalmente de las fracciones de querosene y diésel. Es utilizado como disolvente o diluyente. 
+						<br>Sus usos principales son: solventes para resinas, lacas, esmaltes, caucho, tintas, cuero, gasolina para aviación, agente desengrasante, 
+						producción de resinas epóxicas, elaboración de perfumes, producción de insecticidas y repelentes. limpieza de ropa en seco, diluyentes de pintura, quitaesmaltes y removedores de pegamento, además de detergentes.
+					</p>
 				</div>
 			</div>
 
