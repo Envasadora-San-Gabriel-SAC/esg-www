@@ -36,8 +36,9 @@
                 <li><a href="{{ route('clientes') }}" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
                 -->
                 <li><a href="{{ route('contacto') }}" class="{{ (request()->is('contacto')) ? 'active' : '' }}">CONTACTO</a></li>
+                <!--
                 <li class="boton"><a href="{{ route('clientes') }}" class=" {{ (request()->is('cotizar')) ? 'active' : '' }}"><strong>&nbsp;COTIZAR&nbsp;</strong></a></li>
-            
+                -->
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
