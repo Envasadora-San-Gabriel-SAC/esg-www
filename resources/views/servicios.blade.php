@@ -36,7 +36,9 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6"></div>
+				<div class="col-lg-6"><br>
+					<img src="{{ asset('/images/resina_1.jpg') }}" class="img-fluid" alt="" style="width:50%;">
+				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><br>Distribucion de Solventes de Petroperu</h3>
 					<p class="font-italic">
@@ -48,7 +50,9 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6"></div>
+				<div class="col-lg-6"><br>
+					<img src="{{ asset('/images/resina_2.jpg') }}" class="img-fluid" alt="" style="width:50%;">
+				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 content">
 					<h3><br>Produccion y Distribución de Resinas</h3>
 					<p class="font-italic">
