@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-6">
                             OFICINA
-                            <br>Av Jose Pardo 601 - Of 401
+                            <br>Calle Bolognesi 180 Of 406
                             <br>Miraflores - Lima
                         </div>
                         <div class="col-6">
