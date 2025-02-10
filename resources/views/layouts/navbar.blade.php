@@ -34,7 +34,8 @@
                 <!--
                 <li><a href="{{ route('productos.index') }}">PRODUCTOS</a></li>
                 <li><a href="{{ route('clientes') }}" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
-                -->
+            -->
+                <li><a href="https://pedidos.esg.com.pe" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
                 <li><a href="{{ route('contacto') }}" class="{{ (request()->is('contacto')) ? 'active' : '' }}">CONTACTO</a></li>
                 <!--
                 <li class="boton"><a href="{{ route('clientes') }}" class=" {{ (request()->is('cotizar')) ? 'active' : '' }}"><strong>&nbsp;COTIZAR&nbsp;</strong></a></li>
