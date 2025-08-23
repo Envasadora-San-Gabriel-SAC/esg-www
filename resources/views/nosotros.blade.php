@@ -130,52 +130,55 @@
                             <h3 style="font-size: 2.4em;">POLITICA INTEGRADA DE
                                 ENVASADORA SAN GABRIEL S.A.C.</h3>
                             <p style="font-size: 1.3em;">
-                                En ENVASADORA SAN GABRIEL S.A.C. empresa dedicada a la comercialización de
-        combustibles y solventes, mediante camiones cisterna; así como a la fabricación y
-        comercialización de productos químicos resinas sintéticas de uso industrial, aditivos
-        para pinturas, pinturas y otros. Nos comprometemos a:
+                                En ENVASADORA SAN GABRIEL S.A.C. empresa dedicada a la comercialización
+                                de combustibles y solventes, mediante camiones cisterna; así como a la
+                                fabricación y comercialización de productos químicos resinas sintéticas de uso
+                                industrial, aditivos para pinturas, pinturas y otros. Nos comprometemos a:
+
                             </p>
                         </div>
                     </div>
                     <div class="col-md-8 offset-md-2">
                         <p class="pt-4">
-                            <ol class="lead">
-                                <li>Brindar estándares de calidad que permitan satisfacer las necesidades y
-                                    expectativas de nuestros clientes y otras partes interesadas, mediante el
-                                    desarrollo de nuestros productos y servicios.</li>
-                                <li>Promover una cultura de prevención de lesiones y deterioro de la salud, así como
-                                    mantener un ambiente con condiciones de trabajo seguras y saludables a través
-                                    de la búsqueda de eliminación de peligros y reducción de riesgos aplicando la
-                                    jerarquía de controles.</li>
-                                <li>Proteger el medio ambiente estableciendo e implementando acciones en todas
-                                    las etapas de nuestro negocio con el fin de prevenir la contaminación producto
-                                    de nuestras actividades.</li>
-                                <li>Potenciar el conocimiento del personal en nuestros procesos, para innovar y
-                                    hacer nuestro producto y servicio eficiente y eficaz.</li>
-                                <li>Cumplir con los requisitos legales vigentes y aplicables a nuestras actividades y
-                                    otros que la organización suscriba voluntariamente.</li>
-                                <li>Integrar los requisitos del Sistema de Gestión de la Seguridad y Salud en el
-                                    Trabajo de acuerdo a la legislación vigente, con los otros sistemas de gestión de
-                                    la organización, de manera de lograr la compatibilidad.</li>
-                                <li>Promover un enfoque de riesgos tanto en calidad, salud, seguridad y medio
-                                    ambiente.</li>
-                                <li>Promover y garantizar que nuestros trabajadores y sus representantes sean
-                                    consultados y participen en el desarrollo del sistema integrado de gestión.</li>
-                                <li>Mejorar continuamente nuestro sistema integrado de gestión con la finalidad de
-                                    proporcionar productos y servicios de calidad, seguros y amigables con el medio
-                                    ambiente; actuando con responsabilidad social y desarrollando un entorno
-                                    sostenible.</li>
-                            </ol>
+                        <ol class="lead">
+                            <li>Brindar estándares de calidad que permitan satisfacer las necesidades y
+                                expectativas de nuestros clientes y otras partes interesadas, mediante el
+                                desarrollo de nuestros productos y servicios.
+                            </li>
+                            <li>Promover una cultura de prevención de lesiones y deterioro de la salud,
+                                así como mantener un ambiente con condiciones de trabajo seguras y
+                                saludables a través de la búsqueda de eliminación de peligros y reducción de
+                                riesgos aplicando la jerarquía de controles.
+                            </li>
+                            <li>Proteger el medio ambiente, considerando acciones para la prevención de
+                                la contaminación producto de nuestras actividades.
+                            </li>
+                            <li>Cumplir con los requisitos legales vigentes y aplicables a nuestras
+                                actividades y otros que la organización suscriba voluntariamente.
+                            </li>
+                            <li>Integrar el Sistema de Gestión de la Seguridad y Salud en el Trabajo,
+                                con los otros sistemas de gestión de la organización,
+                            </li>
+                            <li>Promover y garantizar que nuestros trabajadores y sus representantes
+                                sean consultados y participen en el desarrollo del sistema integrado de
+                                gestión.
+                            </li>
+                            <li>Mejorar continuamente nuestro sistema integrado de gestión con la
+                                finalidad de proporcionar productos y servicios de calidad, seguros y
+                                amigables con el medio ambiente; actuando con responsabilidad social y
+                                desarrollando un entorno sostenible.
+                            </li>
+                        </ol>
                         </p>
                     </div>
                 </div>
-                
+
             </div>
-                    
-                
 
 
-             
+
+
+
         </section><!-- End Testimonials Section -->
 
     </main><!-- End #main -->
