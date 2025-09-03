@@ -63,7 +63,7 @@
             Envasadora San Gabriel S.A.C. contamos con una Sistema Integrado de Gestión de Calidad, Seguridad, Salud y Medio Ambiente implementado para el alcance de: Diseño, Fabricación y Comercialización de Productos Químicos: Resinas y Aditivos para uso industrial.
         </div>
         <div class="credits">
-            &copy;  DERECHOS RESERVADOS {{ date("Y") }}&nbsp;&nbsp;&nbsp;<img src="{{ asset('images/logo/logo-brand-dark.png') }}" alt="" width="40">&nbsp;&nbsp;&nbsp;ENVASADORA SAN GABRIEL SRL  
+            &copy;  DERECHOS RESERVADOS {{ date("Y") }}&nbsp;&nbsp;&nbsp;<img src="{{ asset('images/logo/logo-brand-dark.png') }}" alt="" width="40">&nbsp;&nbsp;&nbsp;ENVASADORA SAN GABRIEL SAC  
         </div>
     </div>
 </footer>
