@@ -125,6 +125,16 @@
         <section id="about" class="about">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <img src="{{ asset('images/PO-001-SG_Politica_Integrada_v03.jpg') }}" alt="" class="img-fluid" alt="Imagen">
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{--
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="section-title content">
                             <h3 style="font-size: 2.4em;">POLITICA INTEGRADA DE
@@ -180,6 +190,7 @@
 
 
         </section><!-- End Testimonials Section -->
+        --}}
 
     </main><!-- End #main -->
 @endsection
