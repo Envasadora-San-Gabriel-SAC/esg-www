@@ -1,48 +1,81 @@
-    <!-- ======= Header ======= -->
-<style>    
-    .boton a{
-        border:1px solid rgba(0, 0, 255, 0.385);
-        border-radius: 5px;
-        margin-left:10px;
-        padding:5px; 
-        background-color: rgb(57, 136, 255);
-        color:#fff;
+
+<!-- ======= Main Header ======= -->
+<style>
+    .main-header {
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3AA69B;
     }
-    .boton a:hover{
-        border:1px solid rgba(0, 132, 255, 0.57);
-        border-radius: 5px;
-        margin-left:10px;
-        padding:5px; 
-        background-color: #fff;
+
+    .logo {
+        display: flex;
+        align-items: center;
     }
-   
-</style>    
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex justify-content-between align-items-center">
 
-        <div class="logo">
-            <h1><a href="{{ route('home') }}"><img src="{{ asset('images/logo/logo-brand.png') }}" alt=""> Envasadora San Gabriel SAC</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-        </div>
+    .logo img {
+        max-height: 45px;
+    }
 
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a href="{{ route('home') }}" class="{{ (request()->is('/')) ? 'active' : '' }}">HOME</a></li>
-                <li><a href="{{ route('nosotros') }}" class="{{ (request()->is('nosotros')) ? 'active' : '' }}">NOSOTROS</a></li>
-                <li><a href="{{ route('servicios') }}" class="{{ (request()->is('servicios')) ? 'active' : '' }}">SERVICIOS</a></li>
-                <!--
-                <li><a href="{{ route('productos.index') }}">PRODUCTOS</a></li>
-                <li><a href="{{ route('clientes') }}" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
-            -->
-                <li><a href="https://pedidos.esg.com.pe" class="{{ (request()->is('clientes')) ? 'active' : '' }}">CLIENTES</a></li>
-                <li><a href="{{ route('contacto') }}" class="{{ (request()->is('contacto')) ? 'active' : '' }}">CONTACTO</a></li>
-                <!--
-                <li class="boton"><a href="{{ route('clientes') }}" class=" {{ (request()->is('cotizar')) ? 'active' : '' }}"><strong>&nbsp;COTIZAR&nbsp;</strong></a></li>
-                -->
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+    .logo a {
+        display: flex;
+        align-items: center;
+        font-weight: 550;
+        font-size: 1.3rem;
+        color: #ffffff;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+    }
 
-        </div>
-    </header><!-- End Header -->
+    .logo a span {
+        margin-left: 15px;
+    }
+
+    /* Navbar */
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 25px;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #ffffff;
+        padding: 6px 10px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    #navbar ul li a:hover,
+    #navbar ul li a.active {
+        background: #80b1a5;
+        color: #000000;
+    }
+</style>
+
+<div class="main-header">
+    <!-- Logo -->
+    <div class="logo">
+        <a href="{{ route('home') }}">
+            <img src="{{ asset('images/logo/logo-brand.png') }}" alt="Logo">
+            <span>Envasadora San Gabriel SAC</span>
+        </a>
+    </div>
+
+    <!-- Menú -->
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="{{ route('home') }}" class="{{ request()->is('/') ? 'active' : '' }}">HOME</a></li>
+            <li><a href="{{ route('nosotros') }}" class="{{ request()->is('nosotros') ? 'active' : '' }}">NOSOTROS</a></li>
+            <li><a href="{{ route('servicios') }}" class="{{ request()->is('servicios') ? 'active' : '' }}">SERVICIOS</a></li>
+            <li><a href="https://pedidos.esg.com.pe" class="{{ request()->is('clientes') ? 'active' : '' }}">CLIENTES</a></li>
+            <li><a href="{{ route('contacto') }}" class="{{ request()->is('contacto') ? 'active' : '' }}">CONTACTO</a></li>
+        </ul>
+    </nav>
+</div>
+</header>

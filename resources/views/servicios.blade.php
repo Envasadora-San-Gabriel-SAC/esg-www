@@ -3,68 +3,101 @@
 @section('container')
 <main id="main">
 
+    <!-- Estilos locales -->
+    <style>
+
+        .about .img-fluid {
+            width: 85%;
+            height: 540px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: transform 0.2s ease;
+        }
+
+        /* Pequeño efecto hover */
+        .about .img-fluid:hover {
+            transform: scale(1.01);
+        }
+
+        .about .address,
+        .about p.font-italic {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Títulos */
+        .about h3 {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+    </style>
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
-
         <ol>
           <li><a href="{{ route('home') }}">Home</a></li>
           <li>Servicios</li>
         </ol>
         <h2>Servicios</h2>
-
       </div>
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-		<div class="container">
+    <section id="about" class="about py-5">
+        <div class="container">
 
-			<div class="row">
-				<div class="col-lg-6">
-					<img src="{{ asset('/images/foto_07.jpg') }}" class="img-fluid" alt="" style="width:50%;">
-				</div>
-				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3>Abastecimiento de Diesel</h3>
-					<p class="font-italic">
-						Solucionamos el problema del abastecimiento de combustibles para las maquinarias, equipos y unidades 
-						de todos nuestros clientes, surtiéndolos directamente en la obra, en el mismo punto de ejecución de 
-						la misma; al igual que en sus locales, puntos de acopio o sedes. Diseñamos y adaptamos cada 
-						abastecimiento de manera personalizada, acorde a las necesidades o exigencias de la operación de 
-						cada cliente. Nuestro servicio tiene alcance a nivel nacional.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6"><br>
-					<img src="{{ asset('/images/resina_1.jpg') }}" class="img-fluid" alt="" style="width:50%;">
-				</div>
-				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3><br>Distribucion de Solventes de Petroperu</h3>
-					<p class="font-italic">
-						Se obtiene por un proceso químico denominado extracción cáustica de los destilados de petróleo, 
-						principalmente de las fracciones de querosene y diésel. Es utilizado como disolvente o diluyente. 
-						<br>Sus usos principales son: solventes para resinas, lacas, esmaltes, caucho, tintas, cuero, gasolina para aviación, agente desengrasante, 
-						producción de resinas epóxicas, elaboración de perfumes, producción de insecticidas y repelentes. limpieza de ropa en seco, diluyentes de pintura, quitaesmaltes y removedores de pegamento, además de detergentes.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6"><br>
-					<img src="{{ asset('/images/resina_2.jpg') }}" class="img-fluid" alt="" style="width:50%;">
-				</div>
-				<div class="col-lg-6 pt-4 pt-lg-0 content">
-					<h3><br>Produccion y Distribución de Resinas</h3>
-					<p class="font-italic">
-						Resina de uso General formulada para ser aplicada como refuerzo entre las sucesivas capas de fibra de vidrio (PRFV). 
-						Se usa en la fabricación de acabados sanitarios tipo mármol como refuerzo en la capa posterior, también en la parte 
-						posterior como refuerzo en sanitarios de colores completos como lavatorios, pisos para duchas, tinas, jacuzis y en 
-						tableros para cocina.  Además, en acabados automotrices, maniquíes, cortavientos vehiculares, piezas en general, etc.
-					</p>
-				</div>
-			</div>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <img src="{{ asset('/images/foto_07.jpg') }}" class="img-fluid" alt="Abastecimiento de Diesel">
+                </div>
+                <div class="col-lg-6 content">
+                    <h3>Abastecimiento de Diesel</h3>
+                    <p class="font-italic">
+                        Solucionamos el problema del abastecimiento de combustibles para las maquinarias, equipos y unidades
+                        de todos nuestros clientes, surtiéndolos directamente en la obra, en el mismo punto de ejecución de
+                        la misma; al igual que en sus locales, puntos de acopio o sedes. Diseñamos y adaptamos cada
+                        abastecimiento de manera personalizada, acorde a las necesidades o exigencias de la operación de
+                        cada cliente. Nuestro servicio tiene alcance a nivel nacional.
+                    </p>
+                </div>
+            </div>
 
-		</div>
+            <div class="row align-items-center mb-5 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <img src="{{ asset('/images/resina_1.jpg') }}" class="img-fluid" alt="Distribución de Solventes">
+                </div>
+                <div class="col-lg-6 content">
+                    <h3>Distribución de Solventes de Petroperú</h3>
+                    <p class="font-italic">
+                        Se obtiene por un proceso químico denominado extracción cáustica de los destilados de petróleo,
+                        principalmente de las fracciones de querosene y diésel. Es utilizado como disolvente o diluyente.
+                        <br>Sus usos principales son: solventes para resinas, lacas, esmaltes, caucho, tintas, cuero, gasolina para aviación, agente desengrasante,
+                        producción de resinas epóxicas, elaboración de perfumes, producción de insecticidas y repelentes, limpieza de ropa en seco, diluyentes de pintura, quitaesmaltes y removedores de pegamento, además de detergentes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="{{ asset('/images/resina_2.jpg') }}" class="img-fluid" alt="Producción y Distribución de Resinas">
+                </div>
+                <div class="col-lg-6 content">
+                    <h3>Producción y Distribución de Resinas</h3>
+                    <p class="font-italic">
+                        Resina de uso General formulada para ser aplicada como refuerzo entre las sucesivas capas de fibra de vidrio (PRFV).
+                        Se usa en la fabricación de acabados sanitarios tipo mármol como refuerzo en la capa posterior, también en la parte
+                        posterior como refuerzo en sanitarios de colores completos como lavatorios, pisos para duchas, tinas, jacuzis y en
+                        tableros para cocina.  Además, en acabados automotrices, maniquíes, cortavientos vehiculares, piezas en general, etc.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
@@ -243,5 +276,5 @@
   -->
     <!-- End Testimonials Section -->
 
-  </main><!-- End #main -->    
+  </main><!-- End #main -->
 @endsection

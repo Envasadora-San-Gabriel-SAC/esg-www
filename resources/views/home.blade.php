@@ -1,6 +1,6 @@
 @extends('layouts.page')
 
- 
+
 
 @section('container')
 
@@ -14,11 +14,33 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url({{ asset('images/carousel/slide-1.jpg') }})">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Abastecimiento de <span>Combustible</span></h2>
-                <p class="animate__animated animate__fadeInUp">Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
+      <div class="carousel-item active"
+     style="background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ asset('images/carousel/carrusel-2.png') }}) center center / cover no-repeat;">
+
+  <div class="carousel-container">
+
+    <div class="carousel-content">
+      <h2 class="animate__animated animate__fadeInDown"
+          style="font-family: 'DIN Pro Bold', 'Roboto', sans-serif;
+                 font-weight: 770;
+                 text-align: center;
+                 color: #000000;
+                 font-size: 3rem;
+                 line-height: 1.3;
+                 margin: 0 auto;">
+        Abastecimiento de <span style="color: #068680;">Combustible</span>
+      </h2>
+      <p class="animate__animated animate__fadeInUp"
+         style="font-family: 'DIN Pro Medium', Poppins;
+                font-weight: 400;
+                text-align: center;
+                color: #222222;
+                line-height: 1.5;
+                font-size: 1.3rem;
+                max-width: 600px;
+                margin: 1.7rem auto 0 auto;">
+        Nuestras soluciones se adaptan a las necesidades de nuestros clientes.
+      </p>
 					<!--
                 <a href="{{ route('servicios') }}" class="btn-get-started animate__animated animate__fadeInUp">Más información</a>
 					-->
@@ -27,21 +49,21 @@
           </div>
 
           <!-- Slide 2 -->
-		 
+
           <div class="carousel-item" style="background: url({{ asset('images/carousel/foto_01.JPG') }})">
             <div class="carousel-container">
               <div class="carousel-content">
-               
+
               </div>
             </div>
           </div>
-	 
+
           <!-- Slide 3 -->
 		  <!--
 			<div class="carousel-item" style="background: url({{ asset('images/carousel/foto_07.JPG') }})">
 				<div class="carousel-container">
 					<div class="carousel-content">
-						<p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles. 
+						<p class="animate__animated animate__fadeInUp">Brindamos soluciones integrales para la distribución y comercializacóin de combustibles.
 							Nuestras soluciones se adaptan a las necesidades de nuestros clientes.</p>
 					</div>
 				</div>
@@ -61,7 +83,7 @@
     </div>
   </section><!-- End Hero -->
 
- 
+
 <main id="main">
     <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
@@ -195,7 +217,7 @@
     -->
     <!-- End Services Section -->
 
- 
+
 
 </main><!-- End #main -->
 

@@ -1,136 +1,143 @@
 @extends('layouts.page')
 
 @section('container')
-    <main id="main">
+<main id="main">
 
-        <!-- ======= Breadcrumbs ======= -->
-        <section id="breadcrumbs" class="breadcrumbs">
-            <div class="container">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+            <ol>
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li>Nosotros</li>
+            </ol>
+            <h2 class="fw-bold">Nosotros</h2>
+        </div>
+    </section>
+    <!-- End Breadcrumbs -->
 
-                <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Nosotros</li>
-                </ol>
-                <h2>Nosotros</h2>
-
-            </div>
-        </section><!-- End Breadcrumbs -->
-
-
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="{{ asset('images/about-mesa-directorio.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h3 style="font-size: 2.4em;">Quienes somos</h3>
-                        <p class="font-italic" style="font-size: 1.3em;">
-                            ESG - Envasadora San Gabriel, es una empresa con negocios diversificados y clasificada entre las
-                            empresas top
-                            en la cámara de comercio de Lima. Iniciamos nuestras operaciones en el año 1996. Durante este
-                            tiempo nos
-                            hemos expandido abarcando negocios como:
-                        </p>
-                        <ul style="font-size: 1.1em;">
-                            <li><i class="bi bi-check-circle"></i> Distribución y comercialización de hidrocarburos.</li>
-                            <li><i class="bi bi-check-circle"></i> Fabricación de pinturas en general y servicio de pintado.
-                            </li>
-                            <li><i class="bi bi-check-circle"></i> Fabricación de resinas, piezas de fibra de vidrio y
-                                revestimiento de tanques.</li>
-                            <li><i class="bi bi-check-circle"></i> Comercialización de solventes y productos químicos.</li>
-                        </ul>
-
-                    </div>
+    <!-- ======= QUIÉNES SOMOS ======= -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="{{ asset('images/about-mesa-directorio.jpg') }}"
+                         class="img-fluid rounded shadow mx-auto d-block"
+                         alt="Mesa directiva ESG">
                 </div>
-
-            </div>
-        </section><!-- End About Section -->
-
-        <!-- ======= About NUESTRA VISION ======= -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h3 style="font-size: 2.4em;">Nuestra Visión</h3>
-                        <p class="font-italic" style="font-size: 1.3em;">
-                            Ser líderes en el mercado nacional brindando productos y servicios de gran calidad, respaldados
-                            en la
-                            continua innovación tecnológica, satisfaciendo las necesidades de nuestros clientes por encima
-                            de sus expectativas.
-                        </p>
-
-                    </div>
-
-                    <div class="col-lg-6">
-                        <img src="{{ asset('images/about-vision.png') }}" class="img-fluid" alt="">
-                    </div>
+                <div class="col-lg-6 content">
+                    <h2 class="mb-4">¿Quiénes somos?</h2>
+                    <p class="lead">
+                        ESG - Envasadora San Gabriel, es una empresa con negocios diversificados y clasificada entre las
+                        empresas top en la Cámara de Comercio de Lima. Iniciamos nuestras operaciones en 1996...
+                    </p>
+                    <ul class="list-unstyled lead">
+                        <li><i class="bi bi-check-circle text-primary"></i> Distribución y comercialización de hidrocarburos.</li>
+                        <li><i class="bi bi-check-circle text-primary"></i> Fabricación de pinturas y servicios de pintado.</li>
+                        <li><i class="bi bi-check-circle text-primary"></i> Resinas, piezas de fibra de vidrio y revestimiento de tanques.</li>
+                        <li><i class="bi bi-check-circle text-primary"></i> Comercialización de solventes y productos químicos.</li>
+                    </ul>
                 </div>
-
             </div>
-        </section><!-- End About Section -->
+        </div>
+    </section>
 
-        <!-- ======= About NUESTRA MISION ======= -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="{{ asset('images/about-mision.png') }}" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h3 style="font-size: 2.4em;">Nuestra Misión</h3>
-                        <p class="font-italic" style="font-size: 1.3em;">
-                            Construir una relación duradera con nuestros clientes, satisfaciendo sus necesidades con
-                            productos y servicios de
-                            alta calidad, utilizando materia prima selecta, tecnología avanzada, colaboradores motivados y
-                            de alto desempeño.
-                        </p>
-                        <p class="font-italic" style="font-size: 1.3em;">
-                            Estamos comprometidos con el mejoramiento continuo de los procesos, el cuidado y protección del
-                            medio ambiente,
-                            con el fin de lograr la diferenciación y el desarrollo socioeconómico sostenible de nuestra
-                            organización.
-                        </p>
-
-                    </div>
+    <!-- ======= VISIÓN ======= -->
+    <section class="about py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="{{ asset('images/about-vision.png') }}"
+                         class="img-fluid rounded shadow mx-auto d-block"
+                         alt="Visión ESG">
                 </div>
-
-            </div>
-        </section><!-- End About Section -->
-
-
-
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container">
-
-                <div class="section-title">
-                    <h3 style="font-size: 2.4em;">Nuestro Compromiso</h3>
-                    <p style="font-size: 1.3em;">
-                        Somos una empresa comprometida con el cuidado del medio ambiente que integra en sus procesos de
-                        producción, distribución y comercialización altos estándares de calidad.
+                <div class="col-lg-6 content">
+                    <h2 class="mb-4">Nuestra Visión</h2>
+                    <p class="lead">
+                        Ser líderes en el mercado nacional brindando productos y servicios de calidad, respaldados
+                        por la innovación tecnológica y satisfacción de nuestros clientes.
                     </p>
                 </div>
-
-
             </div>
-        </section><!-- End Testimonials Section -->
-        <!-- ======= Testimonials Section ======= -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <img src="{{ asset('images/PO-001-SG_Politica_Integrada_v03.jpg') }}" alt="" class="img-fluid" alt="Imagen">
-                    </div>
+        </div>
+    </section>
+
+    <!-- ======= MISIÓN ======= -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="{{ asset('images/about-mision.png') }}"
+                         class="img-fluid rounded shadow mx-auto d-block"
+                         alt="Misión ESG">
+                </div>
+                <div class="col-lg-6 content">
+                    <h2 class="mb-4">Nuestra Misión</h2>
+                    <p class="lead">
+                        Construir una relación duradera con nuestros clientes, satisfaciendo sus necesidades con productos
+                        y servicios de alta calidad, utilizando materia prima selecta y tecnología avanzada.
+                    </p>
+                    <p class="lead">
+                        Estamos comprometidos con la mejora continua, la protección del medio ambiente y el desarrollo sostenible.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- ======= COMPROMISO ======= -->
+    <section id="testimonials" class="testimonials py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Nuestro Compromiso</h2>
+            <p class="lead">
+                Somos una empresa comprometida con el cuidado del medio ambiente que integra en sus procesos altos estándares de calidad.
+            </p>
+        </div>
+    </section>
+
+    <!-- ======= POLÍTICA INTEGRADA ======= -->
+    <section class="about py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <img src="{{ asset('images/PO-001-SG_Politica_Integrada_v03.jpg') }}"
+                         class="img-fluid rounded shadow-lg mx-auto d-block policy-img"
+                         alt="Política Integrada ESG">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ======= Estilos ======= -->
+<style>
+    .about img {
+        max-width: 75%;
+        height: auto;
+        transition: transform 0.1s ease;
+    }
+
+    /* Zoom suave al pasar el mouse */
+    .about img:hover {
+        transform: scale(1.01);
+    }
+
+    /* Imagen de política */
+    .policy-img {
+        max-width: 50%;
+    }
+
+    h2 {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    p.lead {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+</style>
+
         {{--
         <section id="about" class="about">
             <div class="container">
@@ -184,10 +191,6 @@
                 </div>
 
             </div>
-
-
-
-
 
         </section><!-- End Testimonials Section -->
         --}}
