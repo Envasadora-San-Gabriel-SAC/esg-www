@@ -15,7 +15,7 @@
 
           <!-- Slide 1 -->
       <div class="carousel-item active"
-     style="background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ asset('images/carousel/carrusel-2.png') }}) center center / cover no-repeat;">
+     style="background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ asset('images/carousel/carrusel-2.jpg') }}) center center / cover no-repeat;">
 
   <div class="carousel-container">
 

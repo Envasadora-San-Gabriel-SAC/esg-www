@@ -1,9 +1,6 @@
 @extends('layouts.page')
 
 
-
-
-
 @section('container')
 <main id="main">
 
@@ -43,6 +40,6 @@
         </div>
 
     </div>
-    </section><!-- End Clients Section -->    
+    </section><!-- End Clients Section -->
 </main><!-- End #main -->
 @endsection
