@@ -21,9 +21,17 @@
 
     <!-- Mapa -->
     <section>
-        <div class="col-lg-12">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sCalle+Pampilla+121!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-        </div>
+    <div class="col-lg-12">
+        <iframe
+            class="mb-4 mb-lg-0"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.03216221504925!2d-77.12720976596586!3d-11.86921234912739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d38adf9325cf%3A0xfe1507fe3c9fa6bc!2sEnvasadora%20San%20Gabriel%20SAC%20-%20ESG%20SAC!5e0!3m2!1ses-419!2spe!4v1758313183452!5m2!1ses-419!2spe"
+            frameborder="0"
+            style="border:0; width: 100%; height: 384px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+     </div>
     </section>
 
     <!-- Contacto -->
@@ -98,7 +106,7 @@
 @section('script')
 <script>
 function initMap() {
-    var myLatLng = {lat: -11.868842, lng: -77.126666};
+    var myLatLng = {lat: -12.0463731, lng: -77.042754};
     var map = new google.maps.Map(document.getElementById('mapCanvas'), {
         center: myLatLng,
         scrollwheel: false,
@@ -114,10 +122,11 @@ function initMap() {
         map: map,
         icon: img,
         position: myLatLng,
-        title: 'Hello World!'
+        title: 'Ubicación'
     });
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
 </script>
 @endsection
+
