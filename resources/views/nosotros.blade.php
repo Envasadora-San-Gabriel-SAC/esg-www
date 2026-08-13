@@ -131,6 +131,23 @@
                 </div>
             </div>
         </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h3 style="font-size: 2.4em;">SIG - PROCESOS</h3>
+                    <p style="font-size: 1.3em;">
+                        En esta sección encontrarás los formularios y documentos del Sistema Integrado de Gestión (SIG), 
+                        disponibles para su descarga y uso según los procedimientos establecidos por ESG.
+                    </p>
+                </div>
+                <div class="row">
+                    <a href="{{ asset('sig/PR-001-GC.pdf') }}">
+                    EVALUACIÓN, SELECCIÓN, SEGUIMIENTO DE
+DESEMPEÑO Y REEVALUACIÓN DE PROVEEDORES <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
         {{--
         <section id="about" class="about">
             <div class="container">
