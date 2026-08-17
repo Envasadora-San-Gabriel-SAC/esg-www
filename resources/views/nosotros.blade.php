@@ -141,9 +141,8 @@
                     </p>
                 </div>
                 <div class="row">
-                    <a href="{{ asset('sig/PR-001-GC.pdf') }}">
-                    EVALUACIÓN, SELECCIÓN, SEGUIMIENTO DE
-DESEMPEÑO Y REEVALUACIÓN DE PROVEEDORES <i class="fas fa-download"></i>
+                    <a href="{{ asset('sig/ACTA_ALCANCE_V4.pdf') }}">
+                    ACTA DE ALCANCE SIG V4 <i class="fas fa-download"></i>
                     </a>
                 </div>
             </div>
